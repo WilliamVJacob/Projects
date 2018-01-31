@@ -1,0 +1,6 @@
+compressed: maincomp.c file2buff.c master_array.c fourbitcomp.c buff2file.c buff2key.c
+	gcc -o compressed maincomp.c file2buff.c  master_array.c fourbitcomp.c buff2file.c buff2key.c
+#main.o: main.c 
+#	gcc -c main.c
+#file2buff.o: file2buff.c  
+#	gcc -c file2buff.c

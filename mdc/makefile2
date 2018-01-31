@@ -1,0 +1,6 @@
+decompressed: maindecomp.c file2buff.c file2key.c fourbitdecomp.c buff2file.c 
+	gcc -o decompressed maindecomp.c file2buff.c  file2key.c fourbitdecomp.c buff2file.c 
+#main.o: main.c 
+#	gcc -c main.c
+#file2buff.o: file2buff.c  
+#	gcc -c file2buff.c
